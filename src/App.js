@@ -91,7 +91,7 @@ function App() {
             <FastRewind color="primary" />
           </IconButton>
           <IconButton onClick={() => setIsPlaying((prev) => !prev)}>
-            {isPlaying ? (
+            {!isPlaying ? (
               <PlayArrow color="primary" style={{ fontSize: "52px" }} />
             ) : (
               <Pause color="primary" style={{ fontSize: "52px" }} />
