@@ -7,3 +7,7 @@ body {
 .MuiLinearProgress-colorPrimary {
   background-color: black !important;
 }
+
+.drippy {
+  font-family: "Nosifer", cursive;
+}

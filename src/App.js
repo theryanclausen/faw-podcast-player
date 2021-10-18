@@ -59,6 +59,24 @@ function App() {
       style={{ height: "100vh" }}
     >
       <Typography variant="h5">World Wide Murder Mysteries</Typography>
+      <div
+        style={{
+          width: "65vw",
+          height: "65vw",
+          backgroundColor: "black",
+          boxShadow: "14px 15px 35px black",
+          textAlign: "center",
+          color: "red",
+          lineHeight: ".34",
+          fontSize: "32px",
+          // flexDirection: "column",
+        }}
+        className="drippy"
+      >
+        <h1>WW</h1>
+        <h1>MM</h1>
+        <p>podcast</p>
+      </div>
       <Typography variant="body1">
         Episode {ep}: {title}
       </Typography>
