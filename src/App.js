@@ -58,7 +58,9 @@ function App() {
       alignItems="center"
       style={{ height: "100vh" }}
     >
-      <Typography variant="h5">World Wide Murder Mysteries</Typography>
+      <Typography variant="h5" style={{ fontSize: "1.35rem" }}>
+        World Wide Murder Mysteries
+      </Typography>
       <div
         style={{
           width: "65vw",
